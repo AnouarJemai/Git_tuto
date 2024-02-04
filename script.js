@@ -1,7 +1,14 @@
 var a = {
     firstname : "anouar",
     lastname : "jemai",
-    age : 30,
+    age : 31,
+}
+
+
+var b = {
+    firstname : "nabil",
+    lastname : "jemai",
+    age : 32,
 }
 
 for(var key in  a){
@@ -10,6 +17,7 @@ for(var key in  a){
 }
 
 console.log(a);
+console.log(b);
 
 
 
