@@ -16,6 +16,11 @@ for(var key in  a){
 
 }
 
+for(var key in  b){
+    document.write( key + " : "+ a[key] + "<br>") ;
+
+}
+
 console.log(a);
 console.log(b);
 
