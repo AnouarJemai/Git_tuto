@@ -11,6 +11,12 @@ var b = {
     age : 32,
 }
 
+var c = {
+    firstname : "nabil",
+    lastname : "jemai",
+    age : 32,
+}
+
 for(var key in  a){
     document.write( key + " : "+ a[key] + "<br>") ;
 
